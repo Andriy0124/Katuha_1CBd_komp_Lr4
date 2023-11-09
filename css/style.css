@@ -1,0 +1,534 @@
+body {
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+
+header {
+    width: auto;
+    height: 400px;
+    background-image: url(../img/фон-1.png);
+    background-size: cover;
+    background-position: center;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    background-color: gray;
+}
+button:focus{
+  background-color: gray;
+}
+button:active{
+  background-color: gray;
+}
+input{
+  cursor: pointer;
+ 
+}
+
+  
+
+
+input:focus{
+color: rgb(106, 223, 33);
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .fot {
+
+    margin-right: 80px;
+    margin-top: 10px;
+  }
+  
+  .fot0{
+    width: 25px;
+    height: 25px;
+   
+  }
+  
+  
+  .zet{
+    margin-left: 150px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'AirbagRegular', sans-serif;
+    font-size: 25px;
+  
+  }
+  .menu{
+    margin-right: 180px;
+    display: inline;
+    color: white;
+  }
+ .vopros{
+  height: 35px;
+  width: 35px;
+position: absolute;
+top: 13px;
+right: 135px;
+  
+  
+  
+ }
+  .center{
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+  }
+  
+
+ .lets{
+    border-radius: 10px;
+    border-color: white ;
+    background-color: rgba(0, 128, 255, 0)
+ }
+ .st{
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;
+    
+ }
+ .st img {
+    width: 20px;
+    height: 20px;
+    
+ }
+ .line{
+    height: 200px;
+    width: 2px;
+    background-color: white;
+    margin: -40px auto;
+ }
+ .service{
+    width: auto;
+    height: 500px;
+    background-color: rgba(122, 120, 120, 0.136); 
+    
+ }
+ .line1{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin: 0px auto;
+ }
+ .center1{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 80px;
+  }
+  .center1 p{
+    margin-top: -10px;
+  }
+  .KOLO{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   
+  }
+  .kolo {
+    margin: 0 30px;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.800);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.kolo img {
+  width: 100px;
+  height: 100px;
+}
+.title {
+font-weight: bold;
+}
+.TEXT{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+.Text{
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+    
+}
+
+.photoGrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 180px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roow{
+  margin-top: -72px;
+}
+
+.photo {
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.center2{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-top: -30px;
+}
+.center2 p{ 
+  margin-top: -10px;
+}
+.tekst{
+  text-align: center;
+}
+.qq{
+  text-align: center;
+  font-size: 60px;
+  color: gray;
+  margin-top: -10px;
+}
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ flex-direction: column;
+}
+.col h2{
+  font-size: 15px;
+}
+.col p{
+  font-size: 15px;
+  margin-top: -10px;
+}
+.fot1{
+width: 80px;
+height: 80px;
+background-color: aqua;
+background-position: center;
+background-size: cover;
+border-radius: 50%;
+}
+.fot2{
+  margin: 0 auto;
+  margin-top: -50px;
+}
+.col3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.col1{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 5px;
+  border: 1px solid black;
+}
+.col2{
+height: 30px;
+width: 30px;
+border-radius: 50%;
+border-color: black;
+border: 1px solid black;
+margin: 5px;
+}
+
+.fon{
+  width: auto;
+  height: 650px;
+  background-image: url(../img/фон-2.png);
+  background-size: cover;
+  background-position: center;
+}
+.center3{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 40px;
+  color: white;
+}
+.center3{
+  flex-direction: column;
+  margin-top: -30px;
+}
+.center3 p{ 
+  margin-top: -10px;
+}
+.line2{
+  width: 50px;
+  height: 2px;
+  background-color: white;
+  margin: 0px auto;
+}
+.prof {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto;
+  max-width: 800px; 
+
+}
+
+.profile-item {
+  width: 200px; 
+  height: 320px;
+
+ margin-right: 15px;
+  background-color: rgba(183, 183, 183, 0.823);
+}
+
+.profile-item img {
+  width: 200px; 
+  height: 200px;
+}
+.profile{
+  text-align: center;
+  font-size: 12px;
+  color: black;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.icons img{
+  width: 20px;
+  height: 20px;
+}
+.meet{
+  justify-content: center;
+  margin-top: -15px;
+}
+.MEET{
+  width: 190px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+border-radius: 30px;
+border: 1px solid white;
+}
+.minifon{
+  width: auto;
+  height: 200px;
+  background-color: rgba(99, 99, 99, 0.507);
+}
+.brend{
+  display: flex;
+  justify-content: center;
+  
+}
+.brend img{
+  height: 180px;
+  width: 220px;
+  margin-right: -50px;
+}
+.center4{
+display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 80px;
+  color: black;
+}
+.center4{
+  flex-direction: column;
+  margin-top: -30px;
+}
+.center4 p{ 
+  margin-top: -10px;
+}
+.Pur {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 1000px; 
+
+}
+.to0p{
+  margin-top: -22px;
+}
+.border-top {
+  border-top: 1px solid black;
+}
+.border-top1 {
+  border-top: 5px solid black;
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+.border-left {
+  border-left: 1px solid black;
+}
+.border-right {
+  border-right: 1px solid black;
+}
+.Pur-item {
+  width: 300px; 
+  height: 150px;
+  background-color: white;
+  text-align: center;
+  
+}
+.Pur-item1{
+  width: 300px; 
+  height: 170px;
+  background-color: white;
+  text-align: center;
+}
+.Pur-item2{
+  width: 300px; 
+  height: 250px;
+  text-align: center;
+}
+.PEY{
+color: rgba(0, 0, 0, 0.721);
+}
+
+
+
+.PEY p{
+  margin-top: -45px;
+  color: rgba(78, 78, 78, 0.577);
+}
+.hh{
+font-size: 50px;
+margin-top: -15px;
+}
+.PEY1{
+padding: 20px;
+}
+.PEY1 p{
+  margin-top: -45px;
+  color: rgba(78, 78, 78, 0.577);
+}
+.PEY2{
+font-size: 15px;
+display: flex;
+justify-content: space-between;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+height: 100px;
+
+}
+.batomq{
+  align-items: end;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.but {
+  background-color: rgba(128, 128, 128, 0.644);
+  color: white;
+  border-radius: 20px;
+  width: 80px;
+  justify-content: center;
+  align-items: end;
+}
+
+.Presf {
+margin-top: 80px;
+ align-items: center;
+ text-align: center;
+
+}
+.photo1{
+height: 400px;
+width: 600px;
+background-size: cover;
+}
+.dani{
+  height: 400px;
+  width: 600px;
+  background-size: cover;
+  justify-content: center;
+}
+.info{
+  text-align: center;
+  margin-top: 80px;
+  margin-left: -60px;
+}
+.info input{
+  width: 200px;
+  background-color: rgba(42, 251, 251, 0);
+  height: 20px;
+  border-color: white;
+}
+.info label {
+    margin-bottom: 10px; 
+  padding-right: 30px;
+   color: white;
+    
+}
+
+.info input {
+    margin-bottom: 15px;
+}
+
+#input4 {
+    height: 100px;
+    margin-left: -12px;
+}
+.betoom{
+  margin-top: 10px;
+  margin-right: -160px;
+  color: white;
+  background-color: rgb(122, 120, 120, 0);
+  width: 70px;
+  height: 30px;
+ border-color: white;
+}
+footer{
+  height: 100px;
+  width: auto;
+  background-color: rgba(99, 99, 99, 0.507);
+  display: flex;
+text-align: right;
+  align-items: center;
+
+}
+.tek{
+  display: flex;
+
+
+}
+.tek h2{
+  margin-left: 290px;
+  font-family: 'AirbagRegular', sans-serif;
+}
+.tek p{
+  margin-top: 24px;
+  margin-left: 30px;
+}
+.tek1 {
+  display: flex;
+  margin-left: auto; 
+  position: absolute;
+  right: 240px;
+}
+.tek1 p{
+margin-right: 20px;
+}
+.tek1 img{
+  margin-top: 10px;
+}
+footer img{
+  height: 30px;
+  width: 30px;
+}
